@@ -201,7 +201,7 @@ li a:hover {
 /* Text box for the pictures on the Portfolio tab */
 
 .textbox {
-    Padding: 5px;
+    padding: 5px;
     background-color:#4aaaa5;
     text-align: center;
     margin-top: 200px;
@@ -210,55 +210,123 @@ li a:hover {
     color:#ffffff;
 }
 
- /* Old Code used to origionally format the Portfolio page. Don't want to remove just yet. Issue with Code is it doesn't move the text with the picture. They opperata as different elements
+@media only screen and (max-width: 980px){
 
+    #header_content {
+        max-width: 980px;
+        width: 90%;
+    }
 
-.picture {
-    float: left;
-    margin-right: 50px;
-    margin-bottom: 50px;
-}
+    .content {
+        width: 90%;
+    }
 
-.picture-txt {
-    position: relative;
-    left: 0px;
-    bottom: 10px;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    width: 100%;
-    height: 20px;
+    .text_input_size {
+        max-width: 980px;
+        width: 100%;
+    }
 
 }
 
-.pic-wrap {
-    position: relative;
-    height:200px;
+@media only screen and (max-width: 768px){
+
+    .content {
+        width:90%;
+    }
+
+    #header_content {
+        max-width: 768px;
+        width: 90%;
+    }
+
+    #pic1 {
+        
+        background-size: 200px 200px;
+        width: 200px;
+        height: 200px;
+        
+    }
+
+    #pic2 {
+        
+        background-size: 200px 200px;
+        width: 200px;
+        height: 200px;
+        
+    }
+
+    #pic3 {
+        
+        background-size: 200px 200px;
+        width: 200px;
+        height: 200px;
+        
+    }
+
+    #pic4 {
+        
+        background-size: 200px 200px;
+        width: 200px;
+        height: 200px;
+        
+    }
+
+    #pic5 {
+        
+        background-size: 200px 200px;
+        width: 200px;
+        height: 200px;
+        
+    }
+
+    #pic6 {
+        
+        background-size: 200px 200px;
+        width: 200px;
+        height: 200px;
+        
+    }
+
+    .text_input_size {
+        max-width: 768px;
+        width: 100%;
+    }
+
+    
+
 }
 
-.bottom{
-    position: absolute;
-    bottom: 10px;
-    left: 0px;
-    width: 200px;
-    height: 30px;
-    padding: 10px;
-    background-color: #4aaaa5;    
-    text-align: center;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: white;
+@media only screen and (max-width: 640px){
+    
+    #name{
+        float: none;
+        max-width: 640px;
+        width: 100%;
+        
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .content {
+        width:90%;
+    }
+
+    #header_content {
+        max-width: 640px;
+        width: 100%;
+    }
+
+    .text_input_size {
+        max-width: 640px;
+        width: 100%;
+    }
+
+
 }
 
-.left{
-    position: absolute;
-    bottom: 10px;
-    left: 250px;
-    width: 200px;
-    height: 30px;
-    padding: 10px;
-    background-color: #4aaaa5;    
-    text-align: center;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: white;
-}
 
-*/
+
+
